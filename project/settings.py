@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "rest_framework",  # new
     "corsheaders",  # new
     "notes",  # new
+    "jwtauth",
 ]
 
 MIDDLEWARE = [
