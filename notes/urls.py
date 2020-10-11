@@ -3,5 +3,5 @@ from rest_framework.routers import SimpleRouter
 from .views import NoteViewSet
 
 router = SimpleRouter()
-router.register('notes', NoteViewSet, base_name="notes")
+router.register('notes', NoteViewSet, basename="notes")
 urlpatterns = router.urls
